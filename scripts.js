@@ -1,30 +1,3 @@
-const datos = [
-    {
-        picsum: "https://picsum.photos/id/1020/900/600",
-        title: "Primera",
-        text: "Este es el primer párrafo",
-    },
-    {
-        picsum: "https://picsum.photos/id/157/900/600",
-        title: "Segunda",
-        text: "Este es el segundo párrafo",
-    },
-    {
-        picsum: "https://picsum.photos/id/20/900/600",
-        title: "Tercera",
-        text: "Este es el tercer párrafo",
-    },
-    {
-        picsum: "https://picsum.photos/id/26/900/600",
-        title: "Cuarta",
-        text: "Este es el cuarto párrafo",
-    },
-    {
-        picsum: "https://picsum.photos/id/178/900/600",
-        title: "Quinta",
-        text: "Este es el quinto párrafo",
-    },
-];
 
 datos.forEach((d, i) => {
     if (i % 2 == 0) {
